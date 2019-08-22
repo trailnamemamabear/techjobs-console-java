@@ -98,9 +98,6 @@ public class JobData {
                 String a = column.getKey();
                 String b = column.getKey();
 
-                String a = a.toLowerCase();
-                String b = b.toLowerCase();
-
                 if(a.contains(value) || b.contains(value)) {
                     jobs.add(row);
                 }
